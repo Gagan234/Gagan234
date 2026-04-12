@@ -1,7 +1,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1026,50:132347,100:1F6FEB&height=240&section=header&text=Gagan%20Sapkota&fontSize=44&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%7C%20AI%20%7C%20Full-Stack%20%7C%20Systems&descAlignY=58&descSize=18" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1200&color=58A6FF&center=true&vCenter=true&width=820&lines=Building+clean%2C+scalable%2C+high-impact+software;AI-powered+products+with+real-world+value;Backend+systems+%E2%80%A2+Full-stack+engineering+%E2%80%A2+Product+thinking" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1200&color=58A6FF&center=true&vCenter=true&width=820&lines=Building+clean%2C+scalable%2C+high-impact+software;AI-powered+products+with+real-world+value;Backend+systems+%E2%80%A2+Full-stack+engineering" alt="Typing SVG" />
 </p>
 
 <p align="center">
