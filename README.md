@@ -1,8 +1,8 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1026,50:132347,100:1F6FEB&height=230&section=header&text=Gagan%20Sapkota&fontSize=44&fontColor=FFFFFF&animation=fadeIn&fontAlignY=37&desc=AI%2FML%20Engineer%20%7C%20Research%20Engineering%20%7C%20Production%20AI&descAlignY=57&descSize=18" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1026,50:132347,100:1F6FEB&height=220&section=header&text=Gagan%20Sapkota&fontSize=44&fontColor=FFFFFF&animation=fadeIn&fontAlignY=37&desc=AI%2FML%20Engineer%20%7C%20Research%20Engineering%20%7C%20Production%20AI&descAlignY=57&descSize=18" />
 
 <p align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=58A6FF&center=true&vCenter=true&width=900&lines=Building+reliable+AI+systems+from+research+to+production;LLM+inference+%E2%80%A2+model+evaluation+%E2%80%A2+scalable+systems;Turning+ambiguous+problems+into+working+software"
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1200&color=58A6FF&center=true&vCenter=true&width=900&lines=Building+reliable+AI+systems+from+research+to+production;LLM+inference+%E2%80%A2+model+evaluation+%E2%80%A2+ML+systems;Turning+technical+ideas+into+working+software"
     alt="Typing introduction"
   />
 </p>
@@ -23,91 +23,106 @@
 
 ## About Me
 
-I am a **software engineer and graduate machine learning researcher** focused on building AI systems that move beyond experimentation and work reliably in real-world environments.
+I am a **software engineer and graduate machine learning researcher** focused on building AI systems that work reliably beyond the experimental stage.
 
-My work sits at the intersection of:
+My experience spans:
 
-- Machine learning research and model evaluation
-- LLM inference and AI systems
-- Scalable Python and backend engineering
-- Cloud infrastructure and deployment
-- Reproducible experimentation
-- Technical communication and stakeholder collaboration
+- Machine learning experimentation and model evaluation
+- LLM inference and research engineering
+- Scalable Python and backend systems
+- Cloud infrastructure and AI deployment
+- Reproducible research and technical communication
 
-At **Wolters Kluwer**, I build AI-enabled internal tooling and scalable backend infrastructure using Python, AWS, APIs, and OpenSearch.
+At **Wolters Kluwer**, I build AI-enabled internal tooling and backend infrastructure using Python, AWS, APIs, and OpenSearch.
 
-At **Stony Brook University**, I conduct graduate research involving machine learning model development, experimentation, evaluation, and reproducible research workflows using Python and PyTorch.
+At **Stony Brook University**, I conduct graduate research involving machine learning development, experimentation, evaluation, and reproducible workflows using Python and PyTorch.
 
-I am especially interested in **AI/ML Engineering, Applied AI, Research Engineering, ML Systems, AI Deployment, and Forward-Deployed Engineering**.
-
-> Some of my professional and academic work is confidential. Public repositories demonstrate related technical skills without exposing proprietary or unpublished information.
+> Some professional and academic work is confidential. My public repositories demonstrate related skills without exposing proprietary or unpublished information.
 
 ---
 
-## Featured Project
+## Selected Projects
 
 ### [Speculative Decoding from Scratch](https://github.com/Gagan234/speculative-decoding)
 
-A PyTorch implementation created to understand how speculative decoding can accelerate autoregressive language-model inference while preserving the target model's output.
+A PyTorch implementation exploring how a smaller draft model can propose tokens for efficient verification by a larger target model.
 
-The system uses a smaller **draft model** to propose candidate tokens and a larger **target model** to verify those candidates efficiently.
+**Highlights**
 
-#### What the project demonstrates
-
-- Implementing an LLM inference algorithm from first principles
-- Coordinating draft-model generation and target-model verification
-- Comparing speculative generation with standard autoregressive decoding
-- Validating output correctness character by character
-- Reasoning about token acceptance, inference steps, latency, and throughput
-- Prioritizing measurable correctness over unverified performance claims
-- Writing technical documentation that explains both the algorithm and implementation
+- Implemented the draft-and-verify inference workflow from first principles
+- Compared speculative and standard autoregressive decoding
+- Verified that generated outputs remained character-for-character identical
+- Measured acceptance behavior, inference steps, latency, and projected speedup
+- Documented the algorithm, implementation decisions, and limitations
 
 <p>
   <img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=58A6FF" alt="Python" />
   <img src="https://img.shields.io/badge/PyTorch-0D1117?style=flat-square&logo=pytorch&logoColor=58A6FF" alt="PyTorch" />
   <img src="https://img.shields.io/badge/LLM%20Inference-0D1117?style=flat-square&logoColor=58A6FF" alt="LLM Inference" />
   <img src="https://img.shields.io/badge/Model%20Evaluation-0D1117?style=flat-square&logoColor=58A6FF" alt="Model Evaluation" />
-  <img src="https://img.shields.io/badge/Inference%20Optimization-0D1117?style=flat-square&logoColor=58A6FF" alt="Inference Optimization" />
 </p>
 
 <p>
   <a href="https://github.com/Gagan234/speculative-decoding">
-    <img src="https://img.shields.io/badge/View%20Project-1F6FEB?style=for-the-badge&logo=github&logoColor=white" alt="View speculative decoding project" />
+    <img src="https://img.shields.io/badge/View%20Repository-1F6FEB?style=for-the-badge&logo=github&logoColor=white" alt="View repository" />
   </a>
 </p>
 
 ---
 
-## Engineering Experience
+### [Grokking Modular Addition](https://github.com/Gagan234/grokking-modular-addition)
 
-### AI-Enabled Software and Backend Systems
+A research-oriented PyTorch experiment exploring **grokking**: the transition from memorization to delayed generalization on a modular-arithmetic task.
 
-- Built an AI-powered code-intelligence agent that collects, organizes, and indexes source code from internal Bitbucket and GitHub repositories.
-- Engineered a multithreaded Python ingestion pipeline that processes **7,626 files per run**.
-- Implemented REST API pagination and concurrent processing for large codebases.
-- Generated structured JSON and compressed outputs in Amazon S3.
-- Worked with AWS EC2, Lambda, S3, Secrets Manager, IAM, and OpenSearch.
-- Collaborated with engineering and security stakeholders to translate workflow and repository-access requirements into a reliable internal system.
+**Highlights**
 
-### Machine Learning Research
+- Trains a neural network on modular addition under controlled data splits
+- Tracks training and validation behavior throughout optimization
+- Examines the relationship between overfitting and delayed generalization
+- Uses reproducible experiments and visualizations to study learning dynamics
+- Connects model performance with broader questions in interpretability and generalization
 
-- Develop and evaluate artificial intelligence and machine learning models.
-- Design experiments using Python, PyTorch, and research datasets.
-- Build data-processing and model-evaluation pipelines involving preprocessing, validation, and quality assurance.
-- Establish baseline approaches and compare performance across experimental settings.
-- Develop reproducible workflows using version control, experiment tracking, and high-performance computing resources.
-- Analyze model behavior and communicate findings through technical documentation, visualizations, and research presentations.
+<p>
+  <img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=58A6FF" alt="Python" />
+  <img src="https://img.shields.io/badge/PyTorch-0D1117?style=flat-square&logo=pytorch&logoColor=58A6FF" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/Grokking-0D1117?style=flat-square&logoColor=58A6FF" alt="Grokking" />
+  <img src="https://img.shields.io/badge/Generalization-0D1117?style=flat-square&logoColor=58A6FF" alt="Generalization" />
+  <img src="https://img.shields.io/badge/Interpretability-0D1117?style=flat-square&logoColor=58A6FF" alt="Interpretability" />
+</p>
+
+<p>
+  <a href="https://github.com/Gagan234/grokking-modular-addition">
+    <img src="https://img.shields.io/badge/View%20Repository-1F6FEB?style=for-the-badge&logo=github&logoColor=white" alt="View repository" />
+  </a>
+</p>
 
 ---
 
-## Technical Focus
+## Experience Snapshot
 
-### Artificial Intelligence and Machine Learning
+### AI-Enabled Software Engineering
+
+- Built a code-intelligence agent that collects and indexes source code from internal Bitbucket and GitHub repositories.
+- Engineered a multithreaded Python pipeline processing **7,626 files per run**.
+- Integrated REST APIs, OpenSearch, Amazon S3, EC2, Lambda, Secrets Manager, and IAM.
+- Collaborated with engineering and security stakeholders to translate requirements into a reliable internal system.
+
+### Machine Learning Research
+
+- Develop and evaluate machine learning models using Python and PyTorch.
+- Build reproducible data-processing, experimentation, and evaluation pipelines.
+- Establish baselines, compare performance, and analyze model behavior.
+- Communicate findings through documentation, visualizations, and research presentations.
+
+---
+
+## Technical Stack
+
+### AI and Machine Learning
 
 <p>
   <img src="https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=58A6FF" alt="Python" />
   <img src="https://img.shields.io/badge/PyTorch-0D1117?style=for-the-badge&logo=pytorch&logoColor=58A6FF" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/Machine%20Learning-0D1117?style=for-the-badge&logoColor=58A6FF" alt="Machine Learning" />
   <img src="https://img.shields.io/badge/LLM%20Systems-0D1117?style=for-the-badge&logoColor=58A6FF" alt="LLM Systems" />
   <img src="https://img.shields.io/badge/Model%20Evaluation-0D1117?style=for-the-badge&logoColor=58A6FF" alt="Model Evaluation" />
 </p>
@@ -122,7 +137,7 @@ The system uses a smaller **draft model** to propose candidate tokens and a larg
   <img src="https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=58A6FF" alt="Git" />
 </p>
 
-### Product and Full-Stack Engineering
+### Software Engineering
 
 <p>
   <img src="https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=58A6FF" alt="JavaScript" />
@@ -134,37 +149,17 @@ The system uses a smaller **draft model** to propose candidate tokens and a larg
 
 ---
 
-## How I Approach Engineering
+## Engineering Principles
 
-- **Correctness before cleverness:** verify that a system works before making performance claims.
-- **Evaluation is part of development:** define baselines, metrics, and failure cases early.
-- **Research should be reproducible:** track configurations, dependencies, experiments, and results.
-- **Deployment changes the problem:** reliability, observability, latency, security, and usability matter.
-- **Prefer clear systems:** use the simplest architecture that meets the technical requirements.
-- **Communicate trade-offs:** make technical decisions understandable to researchers, engineers, and stakeholders.
-
----
-
-## Current Areas of Interest
-
-- Efficient LLM inference
-- Speculative decoding and model serving
-- Evaluation frameworks for LLM applications
-- Reliable AI and failure analysis
-- Retrieval, tool use, and context management
-- Production AI infrastructure
-- Reproducible machine learning research
-- Human-centered AI deployment
+**Correctness before cleverness · Evaluation before claims · Reproducibility by default · Clear technical communication · Reliable deployment**
 
 ---
 
 ## Opportunities
 
-I am interested in technical opportunities involving:
+I am interested in opportunities involving:
 
 **AI/ML Engineering · Applied AI · Research Engineering · ML Systems · AI Deployment · Forward-Deployed Engineering**
-
-I am particularly drawn to teams working on difficult problems where research, software engineering, evaluation, and real-world deployment overlap.
 
 <p align="center">
   <a href="mailto:gagansapkota668@gmail.com">
@@ -172,4 +167,4 @@ I am particularly drawn to teams working on difficult problems where research, s
   </a>
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1F6FEB,50:132347,100:0B1026&height=110&section=footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1F6FEB,50:132347,100:0B1026&height=100&section=footer" />
